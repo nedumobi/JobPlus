@@ -10,34 +10,35 @@
   <title>JOBPLUS Site</title>
 </head>
 <body>
+    <section>
 
     <nav class="nav">
         <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
         <ul class="nav__lblock">
             <li class="nav__hamburger"><label for="hamburger"><img src="images/Hamburger.svg" alt=""></label>
                 </li>
-            <li class="nav__logo"><a  class="dtext"  href="">JOBPLUS</a></li>
+            <li class="nav__logo"><a  class="dtext"  href="index.html"><img src="images/">JOBPLUS</a></li>
         </ul>
         <ul class="nav__icons">
-            <li><a href=""><img src="images/search.svg" alt=""></a></li>
-            <li><a href=""><img src="images/notification.svg" alt=""></a></li>
+            <li><a href="listing.html"><img src="images/search.svg" alt=""></a></li>
+            <li><a href="notification.html"><img src="images/notification.svg" alt=""></a></li>
             <!--li><a href=""><img src="images/Notification_Ellipse.svg" alt=""></a></li-->
-            <li><a href=""><img src="images/user.svg" alt=""></a></li>
-            <li><a href="">
+            <li><a href="profile.html"><img src="images/user.svg" alt=""></a></li>
+            <li><a href="saved_jobs.html">
                 <img src="images/star.svg" alt="">
                 <span class ="nav__savedcount">1</span>
             </a>
             </li>
-            <li><a href=""><img src="images/share.svg" alt=""></a></li> 
+            <li><a href="login.html"><img src="images/share.svg" alt=""></a></li> 
         </ul>  
         <ul class="nav__dropl">
-            <a class="dtext" href="">
+            <a class="dtext" href="input">
                 <li>Home</li>
             </a>
-            <a class="dtext" href="">
+            <a class="dtext" href="listing.html">
                 <li>Job Listing</li>
             </a>
-            <a class="dtext" href="">
+            <a class="dtext" href="applications.html"></a>
                 <li>Job Applications</li>
             </a>
         </ul> 
@@ -64,6 +65,80 @@
             </div>
         </div>
     </div>
+    <div class= "container">
+        <div class="sector">
+            <h2>Choose a sector</h2>
+            <p>Jobs across multiple sectors. See latest roles</p>
+            <div class="sector__types">
+                <div class="sector__wrap">
+                    <picture class="sector__picture">
+                        <source srcset="images/tech-big.jpg" media="(min-width: 767px)")>
+                        <source srcset="images/tech-small.jpg"> 
+                        <img src="images/tech-small.jpg" alt="">
+                    </picture>
+                    <div class="sector__name">Technology</div>
+                    <ul class="sector__list">
+                        <li><a href="">Accountancy jobs <span>5,873</span></a></li>
+                        <li><a href="">Acturial jobs <span>1,273</span></a></li>
+                        <li><a href="">Admin, Secretarial jobs <span>31,432</span></a></li>
+                    </ul>
+                </div>
+                <div class="sector__wrap">
+                    <picture class="sector__picture">
+                      <source srcset="images/eng-big.jpg" media="(min-width: 767px)">
+                      <source srcset="images/eng-small.jpg">
+                      <img src="images/tech-small.jpg" alt="">
+                    </picture>
+                    <div class="sector__name">Engineering</div>
+                    <ul class="sector__list">
+                      <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                      <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                      <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                    </ul>
+                  </div>
+            
+                <div class="sector__wrap">
+                    <picture class="sector__picture">
+                    <source srcset="images/health-big.jpg" media="(min-width: 767px)">
+                    <source srcset="images/health-small.jpg">
+                    <img src="images/health-small.jpg" alt="">
+                    </picture>
+                    <div class="sector__name">Health</div>
+                    <ul class="sector__list">
+                    <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                    <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                    <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                    </ul>
+                </div>
+        
+                <a href="">
+                    <div class="sector__browse">Browse all sectors</div>
+                </a>
+        
+                <ul class="sector__mlist">
+                    <li><a href="">Accountancy jobs <span>5, 757</span></a></li>
+                    <li><a href="">Acturial jobs <span>5, 757</span></a></li>
+                    <li><a href="">Admin, Secretarial jobs <span>5, 757</span></a></li>
+                </ul>
+                </div>
+        </div>
+
+    </div>
+    </section>
+    <section>
+    <div class="cookie">
+        <p>
+            JobPlus use cookies, by continuing you agree to the use of cookies. 
+<a href="">Learn more</a>
+        </p>
+        <img src="images/cancel.svg" alt="">
+    </div>
+
+
+    </section>
+    <footer class="footer">Copyright JobPlus 2022</footer>
+
+    
 
 </body>
 </html>
