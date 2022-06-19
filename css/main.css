@@ -852,17 +852,19 @@ a {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  justify-self: flex-end;
   margin-bottom: 15rem;
 }
 
-.listing__saved_summary li:first-of-type {
+.listing__saved_summary li :first-of-type {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.listing__saved_summary li:first-of-type span {
+.listing__saved_summary li :first-of-type span {
   margin-right: 10rem;
 }
 

@@ -5,15 +5,15 @@
     &__saved_summary {
         display: flex;
         justify-content: space-between;
-        //justify-self: flex-end;
         margin-bottom: 15rem;
     
-        li:first-of-type {
-          display: flex;
-          span {
+        li :first-of-type {
+           display: flex;
+           justify-content: center;
+            span {
             margin-right: 10rem;
+            }
           }
-        }
     
         li:last-of-type {
           background-color: var(--elements);
