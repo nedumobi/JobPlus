@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- This is a comment -->
+    <link rel="stylesheet" href="css/main.css">
+    <!--link rel="stylesheet" href="style.css"-->
+  <title>JOBPLUS Site</title>
+</head>
+<body>
+    <section>
+
+    <nav class="nav">
+        <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
+        <ul class="nav__lblock">
+            <li class="nav__hamburger"><label for="hamburger"><img src="images/Hamburger.svg" alt=""></label>
+                </li>
+            <li class="nav__logo"><a  class="dtext"  href="index.html">JOBPLUS</a></li>
+        </ul>
+        <ul class="nav__icons">
+            <li><a href="listing.html"><img src="images/search.svg" alt=""></a></li>
+            <li><a href="notification.html"><img src="images/notification.svg" alt=""></a></li>
+            <!--li><a href=""><img src="images/Notification_Ellipse.svg" alt=""></a></li-->
+            <li><a href="profile.html"><img src="images/user.svg" alt=""></a></li>
+            <li><a href="saved_jobs.html">
+                <img src="images/star.svg" alt="">
+                <span class ="nav__savedcount">1</span>
+            </a>
+            </li>
+            <li><a href="login.html"><img src="images/share.svg" alt=""></a></li> 
+        </ul>  
+        <ul class="nav__dropl">
+            <a class="dtext" href="index.html">
+                <li>Home</li>
+            </a>
+            <a class="dtext" href="listing.html">
+                <li>Job Listing</li>
+            </a>
+            <a class="dtext" href="apply.html">
+                <li>Job Applications</li>
+            </a>
+        </ul> 
+    </nav>
+  
+
+    <div class="hero">
+        <div class="hero__wrap">
+            <h2>Register</h2>
+       </div>
+    </div>
+         <section>
+            <div class="container">
+            <div class="form form--page">
+                <div class="form__group form__group--page">
+                    <label class="form__label">Firstname</label>
+                    <input class="form__field" type="text" placeholder="Firstname">
+                </div>   
+                <div class="form__group form__group--page">
+                    <label class="form__label">Lastname</label>
+                    <input class="form__field" type="text" placeholder="Lastname">
+                </div>   
+                <div class="form__group form__group--page">
+                    <label class="form__label">Email</label>
+                    <input class="form__field" type="text" placeholder="Email">
+                </div> 
+                <div class="form__group form__group--page">
+                    <label class="form__label">Choose Password</label>
+                    <input class="form__field" type="text" placeholder="Choose Password">
+                </div>     
+                <div class="form__group form__group--page">
+                    <label class="form__label">Comfirm Password</label>
+                    <input class="form__field" type="text" placeholder="Comfirm Password">
+                </div>
+                <div class="form__group form__group--check">
+                    <p class="form__checkbox"><input type ="checkbox">  I'm not a robot</p>
+                </div>
+                
+                <div class="form__group form__group--page">
+                
+                    <input class="form__btn" type="submit" value="Register">
+
+                </div>
+               
+                <footer> Already have an account? <a href="login.html">login</a></footer>
+                   
+            </div>              
+            </div>
+            </div>
+        
+    </div>
+    
+    <div class="cookie">
+        <p>
+            JobPlus use cookies, by continuing you agree to the use of cookies. 
+            <a href="">Learn more</a>
+        </p>
+        <img src="images/cancel.svg" alt="">
+    </div>
+    </section>
+
+    <footer class="footer">Copyright JobPlus 2022</footer>
+</body>
+</html>

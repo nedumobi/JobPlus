@@ -11,12 +11,13 @@
 </head>
 <body>
     <section>
+
     <nav class="nav">
         <input type="checkbox" class="nav__toggle" id="hamburger" hidden />
         <ul class="nav__lblock">
             <li class="nav__hamburger"><label for="hamburger"><img src="images/Hamburger.svg" alt=""></label>
                 </li>
-            <li class="nav__logo"><a class="dtext" href="index.html">JOBPLUS</a></li>
+            <li class="nav__logo"><a  class="dtext"  href="index.html">JOBPLUS</a></li>
         </ul>
         <ul class="nav__icons">
             <li><a href="listing.html"><img src="images/search.svg" alt=""></a></li>
@@ -37,19 +38,12 @@
             <a class="dtext" href="listing.html">
                 <li>Job Listing</li>
             </a>
-            <a class="dtext" href="apply.html">
-                <li>Job Applications</li>
-            </a>
+            <a href="apply.html">
+                <li>Job applications</li>
+              </a>
         </ul> 
     </nav>
   
-
-    <div class="hero">
-        <div class="hero__wrap">
-            <h2>Notification</h2>
-      
-        </div>
-    </div>
     <div class= "container">
         <div class="listing">
             <div class="filter">
@@ -71,7 +65,8 @@
                 </div>
             </div> 
             <section>
-                <div class="listing__card">
+                
+                <div class="listing__card listing__card--apply">
                     <header class="listing__header">
                         <h1 class="listing__title">Reguratory Affairs Senior
                             Manager</h1>
@@ -83,17 +78,31 @@
                         <li><img src="images/location.svg" alt="">Heyes, <b>Uxbridge</b></li>
                         <li><img src="images/timer.svg" alt="">Contract - Full Time</li>
                     </ul>
-                    <p class="listing__details">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <b>See more..</b></p>
-                   
-                    <a href="" class= "listing__cta listing__cta--alert">Remove</a>                
+                    <div class="form">
+                        <input class="form__btn" type="submit" value="Apply Now">
+                    </div>
+            
                 </div>    
-           
-                <ul class="paginate">
-                    <li>< PREVIOUS</li>
-                    <li>NEXT ></li>
-                </ul>         
+                <div class="listing__more">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing
+                         elit, sed do eiusmod tempor incididunt
+                         ut labore et dolore magna aliqua. Egestas tellus rutrum tellus pellentesque eu. 
+                         Rhoncus urna neque viverra justo nec. Montes nascetur 
+                         ridiculus mus mauris vitae. Commodo ullamcorper a lacus
+                          
+                    </p>
+                    <h1> Required Skills</h1>
+                    <ul class="listing__skills">
+                        <li>Salesforce</li>
+                        <li>SFDC</li>
+                        <li>Development</li>
+                    </ul>   
+                </div>
+                <div class="form">
+                    <input class="form__btn" type="submit" value="Apply Now">
+                </div>
+      
             </section> 
                 
         </div>

@@ -4,12 +4,15 @@
 
     background-color: var(--beta);
     color: var(--delta);
+    margin-top: 5rem;
     padding: 12rem;
-    position: relative;
+    position: fixed;
     width: 100%;
-    bottom: 0rem;
+    bottom: 40rem;
+    z-index: 100;
+
+    a {
+      text-decoration: underline;
+    }
 }
 
-a {
-  text-decoration: underline;
-}

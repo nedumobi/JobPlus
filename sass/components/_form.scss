@@ -1,11 +1,46 @@
 .form {
-    &group{
-        margin-top:8rem;
+    &__checkbox {
+        margin-top: 5rem;
     }
-    &__label{
-        font-size:17rem;
-        font-weight:bold;
-        color: var(--light);
+
+    &__textarea {
+        width: 100%;
+        height: 200rem;
+    }
+
+    &__select {
+        width: 100%;
+        height: 40rem;
+        font-size: 16rem;
+        color: var(--alpha);
+      }
+
+    &--page {
+        padding: 20rem;
+        flex: none;
+
+        footer {
+            font-size: 14rem;
+            text-align: center;
+            margin-top: 10rem;
+                }
+         a { 
+             text-decoration: underline;
+             color: var(--beta);
+
+                }
+
+    }
+    &__group {
+        margin-top: 8rem;
+        &--page {
+            margin-bottom: 20rem;
+        }
+    }
+    &__label {
+        font-size: 18rem;
+        font-weight: bold;
+        color: var(--gamma);
 
         &--light {
          color: var(--light);
@@ -15,7 +50,7 @@
     &__field {
         width: 100%;
         height: 40rem;
-        padding:10rem
+        padding: 10rem;
 
     }
     &__btn {
@@ -29,6 +64,14 @@
     @include respond-to('small'){
         display: flex;
         align-items: flex-end;
+
+        &--page {
+            max-width: 500rem;
+            background-color: var(--light);
+            display: block;
+            padding: 10rem 10rem 10rem 20rem;
+            margin: 20rem auto;
+        }
         
         &__group {
             margin-right: 10rem;
@@ -36,10 +79,12 @@
         }
 
         &__field {
-            min-width:350rem
+            min-width: 350rem;
         }
         &__btn {
             padding: 11rem 15rem;
         }
+        
     }
 }
+

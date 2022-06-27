@@ -4,4 +4,9 @@
     padding: 12rem;
     font-size: 13rem;
     text-align: center;
+    flex-direction: column-reverse;
+    position: fixed;
+    width: 100%;
+    bottom: 0rem;
+    z-index: 90;
   }
